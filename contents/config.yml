@@ -11,6 +11,12 @@ copyright-text: '&copy; Hanbin Luo 2026. All Rights Reserved.'
 github-link:
   text: GitHub
   href: https://github.com/HanbinLuo
+bilibili-link:
+  text: Bilibili
+  href: https://space.bilibili.com/353011170?spm_id_from=333.1007.0.0
+cnblogs-link:
+  text: 博客园
+  href: https://www.cnblogs.com/luohanbin
 license-link:
   text: License
   href: https://github.com/HanbinLuo/HanbinLuo.github.io/blob/main/LICENSE
