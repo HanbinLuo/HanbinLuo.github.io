@@ -1,0 +1,32 @@
+title: Hanbin Luo's Homepage
+page-top-title: Hanbin Luo
+top-section-bg-text: Signal Processing | Processor Architecture | Embedded Systems
+backgrounds:
+  - static/assets/background/background_0.jpeg
+  - static/assets/background/background_1.jpeg
+background-interval-ms: 7000
+background-overlay: 0.52
+copyright-text: '&copy; Hanbin Luo 2026. All Rights Reserved.'
+github-link:
+  text: GitHub
+  href: https://github.com/HanbinLuo
+license-link:
+  text: License
+  href: https://github.com/HanbinLuo/HanbinLuo.github.io/blob/main/LICENSE
+sections:
+  - id: home
+    nav: HOME
+    title: Hanbin Luo&ensp;|&ensp;罗汉斌
+    href: '#page-top'
+  - id: projects
+    nav: PROJECTS
+    title: PROJECTS
+    icon: bi-cpu-fill
+  - id: honors
+    nav: HONORS
+    title: HONORS
+    icon: bi-award-fill
+  - id: skills
+    nav: SKILLS
+    title: SKILLS
+    icon: bi-tools
