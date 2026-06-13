@@ -1,10 +1,9 @@
-title: 罗汉斌的个人主页
-page-top-title: 罗汉斌
-top-section-bg-text: 信号与信息处理 | 处理器微架构 | 嵌入式系统
-avatar-image: static/assets/img/photo.png
+title: Hanbin Luo's Homepage
+page-top-title: Hanbin Luo
+top-section-bg-text: Signal and Information Processing | Processor Architecture | Embedded Systems
+avatar-image: static/assets/img/hs_cnt0_2.jpg
 backgrounds:
-  - static/assets/background/background_0.jpeg
-  - static/assets/background/background_1.jpeg
+  - static/assets/background/Image_1747284786262.jpg
 background-interval-ms: 7000
 background-overlay: 0.52
 copyright-text: '&copy; Hanbin Luo 2026. All Rights Reserved.'
@@ -23,7 +22,7 @@ license-link:
 sections:
   - id: home
     nav: 首页
-    title: Hanbin Luo&ensp;|&ensp;罗汉斌
+    title: Hanbin Luo
     href: '#page-top'
   - id: projects
     nav: 项目经历
