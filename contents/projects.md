@@ -1,20 +1,24 @@
-#### Huawei Wireless Network Research - DDA-driven SIMC Architecture
+#### 华为无线网络研究部 - DDA 驱动的 SIMC 架构设计
 
-- Role: Simulator development, 2025.10-present.
-- Built heterogeneous multi-core CPU and computing-unit simulation workflows in GEM5 for base-station scheduling studies.
-- Adapted GEM5 RISC-V CPU modeling for SMP multi-core support, custom computing-unit attachment, and scheduling experiments.
-- Delivered an initial simulator framework to help identify processor scheduling bottlenecks and explore CPU / accelerator balance points.
+- 时间：2025.10-至今；角色：模拟器开发。
+- 项目需求：通过 SIMC 架构和 DDA 算芯协同优化，实现 SRS 端到端经典与 transformer 模型计算功能，吞吐率性能损失小于 1%，面效相比基线架构提升 1.5x，L3 存储需求降低 30%。
+- 主要工作：负责通信基站调度框架建模，在 GEM5 模拟器中搭建多核 CPU 和多异构计算单元系统，复现华为基站基线算法，开发仿真工具链。
+- 主要工作：修改 GEM5 中 RISC-V CPU，支持 SMP 多核、自定义计算单元挂载和调度，探索处理器核数和计算单元数的平衡点。
+- 项目成果：交付初版仿真器，帮助定位通信基站处理器调度瓶颈，实现灵活可定制的异构系统仿真框架。
 
-#### Tsinghua University & Shanghai DeepWay - Venus 2.0 28 nm Communication Baseband SoC
+#### 清华大学 & 上海深原芯轶 - 28 nm 通信基带 SoC Venus 2.0
 
-- Role: Digital IC front-end and verification, 2025.12-present.
-- Worked on Venus processor vector-extension optimization, front-end instruction fetch/decode throughput, hazard detection, and instruction-set extension support.
-- Participated in 28 nm TSMC flow work including synthesis, place and route, timing analysis, and bottleneck localization.
-- Built automated RTL verification flows and contributed to top-level SoC, cluster, and DFE verification, including FPGA bring-up, pre-simulation, post-simulation, and coverage testing.
+- 时间：2025.12-至今；角色：数字 IC 前端与验证。
+- 项目需求：优化 Venus 1.0 处理器吞吐量，升级多核架构，移植台积电 28 nm 工艺库，新增 USB、JESD204B 等 IP。
+- 主要工作：负责 Venus 处理器向量拓展单元优化，优化 tile 前端取指译码模块以提升吞吐量，优化 hazard 检测，拓展指令集支持。
+- 主要工作：完成 tile 层 28 nm 台积电工艺下的综合和 PR，分析时序报告并定位处理器瓶颈。
+- 主要工作：搭建自动化 RTL 验证框架，负责 SoC 顶层、cluster 层、DFE 模块等的上板验证、前仿、后仿和覆盖率测试。
+- 项目成果：提升处理器吞吐量，定位并修复向量拓展、LSU 等多处 bug，计划 8 月在台积电投片。
 
-#### Shanghai DeepWay - HIVE UAV Swarm Communication Base Station
+#### 上海深原芯轶 - HIVE 无人机集群通信基站
 
-- Role: Linux driver development, 2026.05-present.
-- Ported bare-metal ZYNQ7045 DFE driver logic to Linux on a KU5P + RK3588 heterogeneous platform.
-- Developed XDMA kernel-driver and user-space DFE driver workflows over PCIe 3.0 x4.
-- Implemented configuration and validation flows for GC0802 acquisition, FPGA-side DDR access, DFE timing interrupts, and PSS detection.
+- 时间：2026.05-至今；角色：Linux 驱动开发。
+- 项目需求：开发通信基站和终端，移植 DFE 模块完成同步、相关、抽取、频移、缓存与中断，实现 5G NR 收发。
+- 主要工作：将 ZYNQ7045 裸机 DFE 驱动移植到 Linux 下，使用 KU5P + RK3588 双芯架构，FPGA 侧使用 GC0802 采集 5G 信号。
+- 主要工作：DFE 模块进行同步和定时检测，经 PCIe 3.0 x4 连接 RK3588，开发 XDMA 内核驱动以及用户态 DFE 驱动程序。
+- 项目成果：目前实现 RK3588 通过 FPGA 侧配置 GC0802、读写 DDR，DFE 模块实现定时中断和 PSS 检测等功能。

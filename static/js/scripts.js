@@ -4,7 +4,7 @@ const config_file = 'config.yml'
 
 const allowedUrlProtocols = ['http:', 'https:', 'mailto:', 'tel:'];
 const allowedLocalFileExtensions = ['.doc', '.docx', '.pdf'];
-const configOnlyKeys = ['nav', 'sections', 'backgrounds', 'background-interval-ms', 'background-overlay'];
+const configOnlyKeys = ['nav', 'sections', 'backgrounds', 'background-interval-ms', 'background-overlay', 'avatar-image'];
 
 function stringifyValue(value) {
     return value == null ? '' : value.toString();
@@ -280,6 +280,13 @@ function loadConfig() {
 }
 
 function applyConfig(yml) {
+    const avatarImage = yml['avatar-image'];
+    const avatar = document.querySelector('#avatar img');
+
+    if (avatarImage && avatar) {
+        avatar.src = avatarImage;
+    }
+
     Object.keys(yml).forEach(key => {
         if (configOnlyKeys.includes(key)) {
             return;

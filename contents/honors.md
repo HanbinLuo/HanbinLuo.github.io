@@ -1,11 +1,11 @@
-- National First Prize, National Undergraduate Electronics Design Contest, Fire Patrol UAV, Team Leader, 2023.07.
+- 2022.04，2022 江西省电子设计专题赛，省一等奖，个人赛。
 
-- National Second Prize, Lanqiao Cup National Final, Embedded Development, 2024.07.
+- 2023.04，2023 江西省电子设计专题赛，省一等奖，个人赛。
 
-- Provincial First Prize, National Undergraduate Electronics Design Contest Regional Contest, Stereo Warehouse Inventory UAV System, Team Leader, 2024.07.
+- 2023.07，2023 全国大学生电子设计竞赛，火情巡查无人机，全国一等奖，队长。
 
-- Provincial First Prize, Jiangxi Electronic Design Special Contest, 2022.04.
+- 2024.07，第十五届蓝桥杯决赛，嵌入式开发，全国二等奖，个人赛。
 
-- Provincial First Prize, Jiangxi Electronic Design Special Contest, 2023.04.
+- 2024.07，2024 全国大学生电子设计竞赛赛区赛，立体货架盘点无人机系统，省一等奖，队长。
 
-- National Encouragement Scholarship and university-level third-class scholarship.
+- 国家励志奖学金、校级三等奖学金。
