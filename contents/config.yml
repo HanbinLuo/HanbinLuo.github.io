@@ -19,6 +19,9 @@ bilibili-link:
 cnblogs-link:
   text: 博客园
   href: https://www.cnblogs.com/luohanbin
+lab-link:
+  text: ACE Lab
+  href: https://acelab-shu.github.io/
 license-link:
   text: License
   href: https://github.com/HanbinLuo/HanbinLuo.github.io/blob/main/LICENSE
