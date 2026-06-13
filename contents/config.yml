@@ -4,11 +4,9 @@ top-section-bg-text: Signal and Information Processing | Processor Architecture 
 avatar-image: static/assets/img/pic0.jpg
 backgrounds:
   - static/assets/background/background_0.jpg
-  - static/assets/background/background_1.jpg
-  - static/assets/background/background_4.jpg
   - static/assets/background/background_3.jpg
   - static/assets/background/background_5.jpg
-  - static/assets/background/background_2.jpg
+
 background-interval-ms: 3000
 background-overlay: 0.52
 copyright-text: '&copy; Hanbin Luo 2026. All Rights Reserved.'
