@@ -1,9 +1,12 @@
 title: Hanbin Luo's Homepage
 page-top-title: Hanbin Luo
 top-section-bg-text: Signal and Information Processing | Processor Architecture | Embedded Systems
-avatar-image: static/assets/img/hs_cnt0_2.jpg
+avatar-image: static/assets/img/pic0.jpg
 backgrounds:
-  - static/assets/background/Image_1747284786262.jpg
+  - static/assets/background/background_0.jpg
+  - static/assets/background/background_1.jpg
+  - static/assets/background/background_2.jpg
+  - static/assets/background/background_3.jpg
 background-interval-ms: 7000
 background-overlay: 0.52
 copyright-text: '&copy; Hanbin Luo 2026. All Rights Reserved.'
