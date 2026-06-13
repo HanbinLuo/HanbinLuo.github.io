@@ -1,7 +1,6 @@
 [![HanbinLuo](https://img.shields.io/badge/HanbinLuo-GitHub-blue?logo=github)](https://github.com/HanbinLuo)
 [![Bilibili](https://img.shields.io/badge/Bilibili-个人空间-00A1D6?logo=bilibili)](https://space.bilibili.com/353011170?spm_id_from=333.1007.0.0)
 [![博客园](https://img.shields.io/badge/博客园-luohanbin-2F77B4)](https://www.cnblogs.com/luohanbin)
-[![简历](https://img.shields.io/badge/简历-DOCX-green?logo=microsoftword)](resume.docx)
 
 我目前是上海大学信号与信息处理专业硕士研究生，研究方向包括领域专用处理器、处理器微架构、嵌入式系统和并行计算。
 

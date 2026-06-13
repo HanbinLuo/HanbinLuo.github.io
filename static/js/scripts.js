@@ -3,7 +3,6 @@ const content_dir = 'contents/'
 const config_file = 'config.yml'
 
 const allowedUrlProtocols = ['http:', 'https:', 'mailto:', 'tel:'];
-const allowedLocalFileExtensions = ['.doc', '.docx', '.pdf'];
 const configOnlyKeys = ['nav', 'sections', 'backgrounds', 'background-interval-ms', 'background-overlay', 'avatar-image'];
 
 function stringifyValue(value) {
@@ -245,10 +244,7 @@ function sanitizeMarkdownHtml(html) {
             if (['href', 'src'].includes(name)) {
                 try {
                     const url = new URL(value, window.location.href);
-                    const isSameOriginFile = url.origin === window.location.origin
-                        && allowedLocalFileExtensions.some((extension) => url.pathname.toLowerCase().endsWith(extension));
-
-                    if (!allowedUrlProtocols.includes(url.protocol) && !isSameOriginFile) {
+                    if (!allowedUrlProtocols.includes(url.protocol)) {
                         node.removeAttribute(attribute.name);
                     }
                 } catch {
